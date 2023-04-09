@@ -1,5 +1,5 @@
 import requests, random
-
+# Simple random proxy
 def socks5(link="https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt"):
      if link.lower() == 'speedx':
           r = requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt")
